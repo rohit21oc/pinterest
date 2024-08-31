@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+/* Left Part */
+
+#left{
+    width: 70%;
+    height: 100%;
+    background-color: black;
+}
+
+#left #ltop{
+    width: 100%;
+    height: 70%;
+    background-image: url("https://images.unsplash.com/photo-1682352151147-d74f03290395?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: bottom;
+}
+#left #lbottom{
+    display:  flex;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+}
+#lbtmContent{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#lbottom #lbtmleft{
+    width: 45%;
+    height: 100%;
+    padding: 30px;
+}
+#lbottom #lbtmleft{
+    width: 45%;
+    height: 100%;
+    color: #fff;
+}
+
+#lbottom #lbtmleft h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+#lbottom #lbtmleft p{
+    font-size: 900;
+    font-size: 15px;
+    width: 80%;
+}
+
+#lbtmright{
+    color: white;
+    padding: 30px;
+}
+.row{
+    padding-right: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trow{
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.brow{
+    display: flex;
+}
+.relemtxt{
+    margin-left: 10px;
+}
+.relemtxt p{
+    font-size: 13px;
+    opacity: .5;
+    font-weight: 500;
+}
+
+
+/* Right Part */
+
+#right{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+#right #rtop{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+#right #rbottom{
+    width: 100%;
+    height: 30%;
+    background-color: green;
+}
+#rtop{
+    padding: 50px;
+}
+#rtop a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#icon{
+    top: 0;
+    right: 0;
+    display: flex;
+}
